@@ -1,0 +1,19 @@
+{
+  "name": "@hjcasayas/fm-recipe-page-astro-scss",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.9.3",
+    "astro": "^4.15.6",
+    "sass": "^1.78.0",
+    "sharp": "^0.33.5",
+    "typescript": "^5.6.2"
+  }
+}

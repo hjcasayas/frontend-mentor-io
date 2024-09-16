@@ -1,0 +1,24 @@
+{
+  "name": "@hjcasayas/fm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:recipe-page:astro-scss": "npm run dev -w @hjcasayas/fm-recipe-page-astro-scss --if-present",
+    "git:commit": "cz"
+  },
+  "author": "Henly Jade Casayas",
+  "license": "ISC",
+  "description": "Frontend Mentor challenge solutions.",
+  "workspaces": [
+    "recipe-page/astro-scss"
+  ],
+  "devDependencies": {
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
